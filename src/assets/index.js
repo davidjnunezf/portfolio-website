@@ -34,7 +34,7 @@ import flightbook_image from "./flightbook.png";
 import metaversus from "./metaversus.png";
 import youtube_clone from "./youtube_clone.png";
 import met from "./MET.png";
-import amazon_clone from "./amazon clone.png";
+import amazon_clone from "./amazon_clone.png";
 import thinklit from "./thinklit.png";
 
 export {
