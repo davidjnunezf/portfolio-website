@@ -29,6 +29,9 @@ import {
   flightbook_image,
   metaversus,
   youtube_clone,
+  met,
+  amazon_clone,
+  thinklit,
 } from "../assets";
 
 export const navLinks = [
@@ -202,6 +205,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "MET",
+    description:
+      "Modern Engagement Tools a multi-tenancy platform for the British Columbia government for users to communicate with the public on projects.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pyflask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: met,
+    source_code_link: "https://met-web-dev.apps.gold.devops.gov.bc.ca/eao/",
+  },
+  {
     name: "Flightbook",
     description:
       "Web-based platform that allows users to search, book, and manage flights.",
@@ -265,67 +289,44 @@ const projects = [
     source_code_link: "https://youtube-clone-ivory.vercel.app/",
   },
   {
-    name: "Flightbook",
-    description:
-      "Web-based platform that allows users to search, book, and manage flights.",
+    name: "Amazon Clone",
+    description: "Amazon clone using stripe api & firebase.",
+    tags: [
+      {
+        name: "react.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amazon_clone,
+    source_code_link: "https://clone-6d92d.web.app/",
+  },
+  {
+    name: "ThinkLit",
+    description: "The website for the digital agency I ran during covid",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "aos animation",
+        name: "Greensock.js",
         color: "green-text-gradient",
       },
       {
-        name: "react_icons",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: flightbook_image,
-    source_code_link: "https://flightbooking-site.vercel.app/",
-  },
-  {
-    name: "Metaversus",
-    description: "Conceptual Website for a metaverse game.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "framer-motion",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: metaversus,
-    source_code_link:
-      "https://metaverse-site-d3fehz92f-davidjnunezf.vercel.app/",
-  },
-  {
-    name: "Youtube Clone",
-    description:
-      "A Youtube Clone that shows a youtube homepage with different categories",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "rapidAPI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "material-ui",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: youtube_clone,
-    source_code_link: "https://youtube-clone-ivory.vercel.app/",
+    image: thinklit,
+    source_code_link: "https://thinklit.ca/#/",
   },
 ];
 

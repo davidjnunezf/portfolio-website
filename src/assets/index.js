@@ -33,6 +33,9 @@ import aot from "./tech/AOT_logo.png";
 import flightbook_image from "./flightbook.png";
 import metaversus from "./metaversus.png";
 import youtube_clone from "./youtube_clone.png";
+import met from "./MET.png";
+import amazon_clone from "./amazon clone.png";
+import thinklit from "./thinklit.png";
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   flightbook_image,
   metaversus,
   youtube_clone,
+  amazon_clone,
+  met,
+  thinklit,
 };
