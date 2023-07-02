@@ -17,12 +17,18 @@ import {
   docker,
   meta,
   starbucks,
+  lit,
+  litkit,
   tesla,
   shopify,
+  aot,
   carrent,
   jobit,
   tripguide,
   threejs,
+  flightbook_image,
+  metaversus,
+  youtube_clone,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +60,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Entrepreneur",
     icon: creator,
   },
 ];
@@ -116,55 +122,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Founder & Full-Stack Developer",
+    company_name: "ThinkLit",
+    icon: lit,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created mock ups for screens and websites",
+      "Made custom websites for client using React and Firebase",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Founder & Full Stack Developer",
+    company_name: "LitKit",
+    icon: litkit,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Optimized database structure to reduce reads and writes by 30%.",
+      "Designed thinking long term, taking into account the health of the code base and programming to make future changes easier.",
+      "Did research on different tech stacks to decide what are the best technologies to use for our application.",
+      "Created stories for users to view clips uploaded by other users in real-time.",
+      "Used Stripe API to manage user payments and payment processing.",
+      "Designed and integrated a host management system for users to create parties in real time.",
+      "Setup push notifications to keep users coming to the app consistently.",
+      "Created custom logos and implemented them into the app with ease.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer",
+    company_name: "AOT-Technologies",
+    icon: aot,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "April 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built an engagement platform for the British Columbia government using React, Redux, Jest, Python Flask, OpenShift, Docker, and Postgres.",
+      "Implemented multitenancy feature to enable multiple organizations to use the platform simultaneously.",
+      "Created a comprehensive user guide using Jekyll to facilitate onboarding and usage of the platform.",
+      "Actively participated in grooming sessions to maintain the Scrum board and plan out the project roadmap.",
+      "Collaborated with cross-functional teams to design and implement features that improved user experience and engagement.",
+      "Designed and implemented scalable architecture using React and Redux to improve the platform's performance and maintainability.",
+      "Developed automated tests with Jest to ensure the reliability of the platform.",
+      "Implemented user authentication and authorization using Flask-Login and JWT.",
+      "Deployed the platform on OpenShift and used Docker to manage the application's containers.",
+      "Implemented database schema and managed data using Postgres.",
     ],
   },
 ];
@@ -198,16 +202,36 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Flightbook",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, book, and manage flights.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "aos animation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react_icons",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: flightbook_image,
+    source_code_link: "https://flightbooking-site.vercel.app/",
+  },
+  {
+    name: "Metaversus",
+    description: "Conceptual Website for a metaverse game.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +239,93 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: metaversus,
+    source_code_link:
+      "https://metaverse-site-d3fehz92f-davidjnunezf.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Youtube Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Youtube Clone that shows a youtube homepage with different categories",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rapidAPI",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "material-ui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: youtube_clone,
+    source_code_link: "https://youtube-clone-ivory.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Flightbook",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based platform that allows users to search, book, and manage flights.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "aos animation",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react_icons",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: flightbook_image,
+    source_code_link: "https://flightbooking-site.vercel.app/",
+  },
+  {
+    name: "Metaversus",
+    description: "Conceptual Website for a metaverse game.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: metaversus,
+    source_code_link:
+      "https://metaverse-site-d3fehz92f-davidjnunezf.vercel.app/",
+  },
+  {
+    name: "Youtube Clone",
+    description:
+      "A Youtube Clone that shows a youtube homepage with different categories",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapidAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtube_clone,
+    source_code_link: "https://youtube-clone-ivory.vercel.app/",
   },
 ];
 
