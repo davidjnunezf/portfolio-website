@@ -30,7 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import aot from "./tech/AOT_logo.png";
-import flightbook_image from "./flightbook.png";
+import met_user_guide from "./met_user_guide.png";
 import metaversus from "./metaversus.png";
 import youtube_clone from "./youtube_clone.png";
 import met from "./MET.png";
@@ -69,7 +69,7 @@ export {
   tripguide,
   aot,
   lit,
-  flightbook_image,
+  met_user_guide,
   metaversus,
   youtube_clone,
   amazon_clone,

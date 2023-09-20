@@ -26,7 +26,7 @@ import {
   jobit,
   tripguide,
   threejs,
-  flightbook_image,
+  met_user_guide,
   metaversus,
   youtube_clone,
   met,
@@ -226,25 +226,24 @@ const projects = [
     source_code_link: "https://met-web-dev.apps.gold.devops.gov.bc.ca/eao/",
   },
   {
-    name: "Flightbook",
-    description:
-      "Web-based platform that allows users to search, book, and manage flights.",
+    name: "MET User Guide",
+    description: "A user guide for MET I deployed & maintained for my team.",
     tags: [
       {
-        name: "react",
+        name: "jekyll",
         color: "blue-text-gradient",
       },
       {
-        name: "aos animation",
+        name: "ruby",
         color: "green-text-gradient",
       },
       {
-        name: "react_icons",
+        name: "js",
         color: "pink-text-gradient",
       },
     ],
-    image: flightbook_image,
-    source_code_link: "https://flightbooking-site.vercel.app/",
+    image: met_user_guide,
+    source_code_link: "https://bcgov.github.io/met-guide/",
   },
   {
     name: "Metaversus",
