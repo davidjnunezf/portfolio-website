@@ -223,7 +223,7 @@ const projects = [
       },
     ],
     image: met,
-    source_code_link: "https://met-web-dev.apps.gold.devops.gov.bc.ca/eao/",
+    source_code_link: "https://engage.eao.gov.bc.ca/",
   },
   {
     name: "MET User Guide",
