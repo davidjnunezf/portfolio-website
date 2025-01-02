@@ -32,6 +32,8 @@ import {
   met,
   amazon_clone,
   thinklit,
+  multivent,
+  epicsubmit,
 } from "../assets";
 
 export const navLinks = [
@@ -205,6 +207,55 @@ const testimonials = [
 
 const projects = [
   {
+    name: "EPIC.submit",
+    description:
+      "A portal for the British Columbia government to management environmental projects.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pyflask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgres",
+        color: "pink-text-gradient",
+      },
+    ],
+    source_code_link: 'https://github.com/bcgov/EPIC.submit',
+    image: epicsubmit,
+  },
+  {
+    name: "Multivent",
+    description: "A marketplace for vendors and event planners.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nestjs",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: multivent,
+    source_code_link: "https://www.themultivent.com/",
+  },
+  {
     name: "MET",
     description:
       "Modern Engagement Tools a multi-tenancy platform for the British Columbia government for users to communicate with the public on projects.",
@@ -306,26 +357,6 @@ const projects = [
     ],
     image: amazon_clone,
     source_code_link: "https://clone-6d92d.web.app/",
-  },
-  {
-    name: "ThinkLit",
-    description: "The website for the digital agency I ran during covid",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Greensock.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styled-components",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: thinklit,
-    source_code_link: "https://thinklit.ca/#/",
   },
 ];
 
